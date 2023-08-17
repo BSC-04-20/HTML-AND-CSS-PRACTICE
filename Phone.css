@@ -1,4 +1,4 @@
-@media(min-width:534px) and (max-width:768px){
+@media(min-width:200px) and (max-width:768px){
     body{
         background-color: #242424;
         box-sizing: border-box;
@@ -6,12 +6,14 @@
     /* NAVIGATION CSS*/
     input{
         position: relative;
-        left: 70%;
+        left: 60%;
         border-radius: 10px;
+        width: 25%;
+        height: 50%;
     }
     #cLogo{
-        width: 4%;
-        height: 4%;
+        width: 10%;
+        height: 6%;
     }
     #userIcon{
         font-weight: bolder;
@@ -37,7 +39,7 @@
         height: fit-content;
         display: list-item;
         justify-content: center;
-        margin: -1% -0.6% 0% -0.6%;
+        margin: -3% -0.6% 0% -0.6%;
         background-color: #242424;
     }
     label{
@@ -93,8 +95,17 @@
         color: white;
         margin-top: 1%;
         margin-left: 2%;
-        width: 40%;
+        width: 100%;
         border: 1px solid goldenrod;
+        border-radius:10px;
+    }
+    .itemSaveButton{
+        background-color: darkblue;
+        color: white;
+        margin-top: 1%;
+        margin-left: 2%;
+        width: 100%;
+        border: 1px solid darkblue;
         border-radius:10px;
     }
     img{

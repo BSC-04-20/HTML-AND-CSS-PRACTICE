@@ -1,4 +1,4 @@
-@media(min-width:1280px) and (max-width:1439px){
+@media(min-width:1280px){
     body{
         background-color: #242424;
         box-sizing: border-box;
@@ -8,6 +8,9 @@
         position: relative;
         left: 70%;
         border-radius: 10px;
+    }
+    #menuIcon{
+        display: none;
     }
     #cLogo{
         width: 4%;
@@ -117,8 +120,17 @@
         color: white;
         margin-top: 1%;
         margin-left: 2%;
-        width: 40%;
+        width: 100%;
         border: 1px solid goldenrod;
+        border-radius:10px;
+    }
+    .itemSaveButton{
+        background-color: darkblue;
+        color: white;
+        margin-top: 1%;
+        margin-left: 2%;
+        width: 100%;
+        border: 1px solid darkblue;
         border-radius:10px;
     }
     img{
